@@ -10,7 +10,7 @@ router.post('/upload', assignmentController.upload);
 router.get('/admins', assignmentController.getAdmins);
 router.get('/assignments', assignmentController.getAssignments);
 router.post('/assignments/:id/accept', assignmentController.accept);
-router.post('//assignments/:id/reject', assignmentController.reject);
+router.post('/assignments/:id/reject', assignmentController.reject);
 
 
 module.exports = router;
